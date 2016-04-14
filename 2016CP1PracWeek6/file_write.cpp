@@ -9,7 +9,7 @@
  * Author: k
  *
  * Created on 14 April 2016, 1:02 PM
- */
+ *
 
 #include<iostream> 
 #include<fstream> // Step (1) 
@@ -49,4 +49,4 @@ int main() {
             << endl;
     in_s.close(); // Step (5)- close the connection (close the file)
     return 0;
-}
+}*/

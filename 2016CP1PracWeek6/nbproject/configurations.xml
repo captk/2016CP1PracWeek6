@@ -13,6 +13,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>file_read.cpp</itemPath>
+      <itemPath>file_read2.cpp</itemPath>
       <itemPath>file_write.cpp</itemPath>
       <itemPath>input_ex1.txt</itemPath>
       <itemPath>input_ex2.txt</itemPath>
@@ -40,6 +41,8 @@
       <compileType>
       </compileType>
       <item path="file_read.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="file_read2.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="file_write.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -69,6 +72,8 @@
         </asmTool>
       </compileType>
       <item path="file_read.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="file_read2.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="file_write.cpp" ex="false" tool="1" flavor2="0">
       </item>

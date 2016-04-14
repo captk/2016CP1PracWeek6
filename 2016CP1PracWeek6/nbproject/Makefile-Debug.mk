@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/file_read.o \
+	${OBJECTDIR}/file_read2.o \
 	${OBJECTDIR}/file_write.o
 
 
@@ -67,6 +68,11 @@ ${OBJECTDIR}/file_read.o: file_read.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/file_read.o file_read.cpp
+
+${OBJECTDIR}/file_read2.o: file_read2.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/file_read2.o file_read2.cpp
 
 ${OBJECTDIR}/file_write.o: file_write.cpp 
 	${MKDIR} -p ${OBJECTDIR}
