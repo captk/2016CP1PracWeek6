@@ -16,8 +16,10 @@
       <itemPath>file_read.cpp</itemPath>
       <itemPath>file_read2.cpp</itemPath>
       <itemPath>file_write.cpp</itemPath>
+      <itemPath>htmlConverter.cpp</itemPath>
       <itemPath>input_ex1.txt</itemPath>
       <itemPath>input_ex2.txt</itemPath>
+      <itemPath>quote.txt</itemPath>
       <itemPath>read_text.cpp</itemPath>
       <itemPath>read_text_fixed.cpp</itemPath>
       <itemPath>text_input.txt</itemPath>
@@ -52,9 +54,13 @@
       </item>
       <item path="file_write.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="htmlConverter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="input_ex1.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="input_ex2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="quote.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="read_text.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -91,9 +97,13 @@
       </item>
       <item path="file_write.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="htmlConverter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="input_ex1.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="input_ex2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="quote.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="read_text.cpp" ex="false" tool="1" flavor2="0">
       </item>

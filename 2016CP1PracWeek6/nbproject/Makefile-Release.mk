@@ -39,6 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/file_read.o \
 	${OBJECTDIR}/file_read2.o \
 	${OBJECTDIR}/file_write.o \
+	${OBJECTDIR}/htmlConverter.o \
 	${OBJECTDIR}/read_text.o \
 	${OBJECTDIR}/read_text_fixed.o
 
@@ -86,6 +87,11 @@ ${OBJECTDIR}/file_write.o: file_write.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/file_write.o file_write.cpp
+
+${OBJECTDIR}/htmlConverter.o: htmlConverter.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/htmlConverter.o htmlConverter.cpp
 
 ${OBJECTDIR}/read_text.o: read_text.cpp 
 	${MKDIR} -p ${OBJECTDIR}

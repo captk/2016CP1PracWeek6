@@ -9,7 +9,7 @@
  * Author: k
  *
  * Created on 14 April 2016, 4:23 PM
- */
+ *
 // char check.cpp - This program reads one character from the keyboard and will 
 // convert it to uppercase, if it is lowercase 
 // convert it to lowercase, if it is uppercase 
@@ -40,3 +40,4 @@ int main() {
     return 0;
 }
 
+*/
