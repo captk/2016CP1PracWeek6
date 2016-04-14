@@ -25,8 +25,10 @@ int main() {
     ifstream in_s;
     get_input_stream(in_s);
     cout << "Here are the entire contents of the input_file \n";
-    while (in_s.get(c)) {
-        cout << c;
+    in_s.get(c);
+    while (!in_s.eof()) {
+        cout.put(c);
+        in_s.get(c);
     }
     cout << "I am done with writing the contents of the file \n";
     in_s.close();
