@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>char_check.cpp</itemPath>
       <itemPath>file_read.cpp</itemPath>
       <itemPath>file_read2.cpp</itemPath>
       <itemPath>file_write.cpp</itemPath>
@@ -43,6 +44,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="char_check.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="file_read.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="file_read2.cpp" ex="false" tool="1" flavor2="0">
@@ -80,6 +83,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="char_check.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="file_read.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="file_read2.cpp" ex="false" tool="1" flavor2="0">

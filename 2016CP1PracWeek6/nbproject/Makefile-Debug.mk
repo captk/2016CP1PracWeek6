@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/char_check.o \
 	${OBJECTDIR}/file_read.o \
 	${OBJECTDIR}/file_read2.o \
 	${OBJECTDIR}/file_write.o \
@@ -65,6 +66,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2016cp1pracweek6: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2016cp1pracweek6 ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/char_check.o: char_check.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/char_check.o char_check.cpp
 
 ${OBJECTDIR}/file_read.o: file_read.cpp 
 	${MKDIR} -p ${OBJECTDIR}

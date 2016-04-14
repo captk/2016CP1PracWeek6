@@ -9,7 +9,7 @@
  * Author: k
  *
  * Created on 14 April 2016, 2:16 PM
- */
+ *
 
 // read text.cpp - This program reads the entire contents of an input_file and will 
 // display it with the same format. 
@@ -45,3 +45,4 @@ void get_input_stream(ifstream& in_s) {
         exit(1);
     }
 }
+*/
