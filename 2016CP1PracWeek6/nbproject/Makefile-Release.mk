@@ -37,7 +37,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/file_read.o \
 	${OBJECTDIR}/file_read2.o \
-	${OBJECTDIR}/file_write.o
+	${OBJECTDIR}/file_write.o \
+	${OBJECTDIR}/read_text.o \
+	${OBJECTDIR}/read_text_fixed.o
 
 
 # C Compiler Flags
@@ -78,6 +80,16 @@ ${OBJECTDIR}/file_write.o: file_write.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/file_write.o file_write.cpp
+
+${OBJECTDIR}/read_text.o: read_text.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/read_text.o read_text.cpp
+
+${OBJECTDIR}/read_text_fixed.o: read_text_fixed.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/read_text_fixed.o read_text_fixed.cpp
 
 # Subprojects
 .build-subprojects:

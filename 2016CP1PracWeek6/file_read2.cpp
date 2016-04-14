@@ -9,7 +9,7 @@
  * Author: k
  *
  * Created on 14 April 2016, 1:48 PM
- */
+ *
 
 // file read2.cpp - This program reads some integers from a file and displays: // The number, number^2, and the sum of all numbers read up to that point 
 #include<iostream>
@@ -37,6 +37,7 @@ int main() {
     avg = sum / count;
     out_s << "\n \t\t The average of these " << count << " numbers is: " << avg << endl
             << endl;
+ out_s.close(); //stop forgetting to close the output stream.
     in_s.close();
     return 0;
 }
@@ -58,4 +59,4 @@ void get_stream(ifstream& in_s, ofstream& out_s) {
         cout << "Output file opening failed. \n";
         exit(1);
     }
-}
+}*/
